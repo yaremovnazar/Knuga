@@ -1,0 +1,119 @@
+h1{
+  text-align: center;
+  font-family: "Amatic SC", sans-serif;
+  background-color: blueviolet;
+  color:white;
+  transition: 0.5s linear;
+}
+
+p{
+color:yellow;
+font-family: "Didact Gothic", sans-serif;
+font-size:20px;
+background-color: #281840;
+}
+
+span{
+  padding-left: 3px;
+  font-size: 23px;
+  border-left: 3px dotted yellow;
+}
+
+body{
+  display: block;
+  background-color: #281840;
+background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%235d33a0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.avada{
+  width: 100px;
+  height: 100px;
+  transition: 1s linear;
+}
+
+.momentum{
+  background-color: blueviolet;
+  width: 100px;
+  height: 70px;
+  transition: 1s linear;
+}
+
+.zaymannya{
+  width: 100px;
+  height: 151;
+  transition: 1s linear;
+}
+
+.zaymannya:hover{
+width:200px;
+height: 251px;
+transition: 1s linear;
+}
+
+.avada:hover{
+  width: 200px;
+  height: 200px;
+  transform: rotate(360deg);
+  transition: 1s linear;
+}
+
+.momentum:hover{
+  background-color: navy;
+  width: 200px;
+  height: 140px;
+  transition: 1s linear;
+}
+
+h1:hover{
+  text-shadow: 2px 5px 10px yellow;
+  transition: 0.5s linear;
+}
+
+footer img{
+  width: 30px;
+  padding: 10px;
+}
+
+footer{
+  background-color: #281840;
+}
+
+.youtube:hover{
+  box-shadow: 5px 5px 5px red;
+  transition: 0.5s linear;
+}
+
+.facebook:hover{
+  box-shadow: 5px 5px 5px blue;
+  transition: 0.5s linear;
+}
+
+.instagram:hover{
+  box-shadow: 5px 5px 5px purple;
+  transition: 0.5s linear;
+}
+
+.tiktok:hover{
+  box-shadow:5px 5px 5px aqua;
+  transition: 0.5s linear;
+}
+
+.youtube{
+  box-shadow: 0px 0px 0px red;
+  transition: 0.5s linear;
+}
+
+.facebook{
+  box-shadow: 0px 0px 0px blue;
+  transition: 0.5s linear;
+}
+
+.instagram{
+  box-shadow: 0px 0px 0px purple;
+  transition: 0.5s linear;
+}
+
+.tiktok{
+  box-shadow:0px 0px 0px aqua;
+  transition: 0.5s linear;
+}
