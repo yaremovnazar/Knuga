@@ -16,8 +16,9 @@ background-color: #281840;
 
 span{
   padding-left: 3px;
-  font-size: 23px;
+  font-size: 35px;
   border-left: 3px dotted yellow;
+  color:red;
 }
 
 body{
